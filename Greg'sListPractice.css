@@ -1,0 +1,56 @@
+header {
+	height: 60px;
+	width: 100%;
+	background-color: lightgrey;
+	position: fixed;
+	top: 0;
+	left: 0;
+	color: black;
+	font-size: 20px;
+
+}
+
+body {
+	font-family: Arial;
+	font-size: 20px;
+}
+
+div {	
+ 	margin-left: 75px;
+ 	margin-top: 50px;
+ }
+
+button {	
+	display: inline-block;
+	border: 1px;
+	border: solid;
+	border-color: lightgrey;
+	margin-bottom: 60px;
+	font-color: black;
+}
+
+.lists {
+
+
+}
+
+.listdate {
+	color: grey;
+}
+
+.listjob {
+	color: blue;
+	font-weight: bold;
+
+}
+
+.listlocation {
+	color:grey;
+}
+
+nav a: hover {
+	color: purple;
+}
+
+
+
