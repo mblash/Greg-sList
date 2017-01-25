@@ -6,8 +6,8 @@ header {
 	top: 0;
 	left: 0;
 	color: black;
-	font-size: 20px;
-
+	text-decoration:none;
+	font-size: 22px;
 }
 
 body {
@@ -16,41 +16,67 @@ body {
 }
 
 div {	
- 	margin-left: 75px;
- 	margin-top: 50px;
+ 	margin-top: 40px;
+ 	margin-left: 80px;
  }
 
 button {	
 	display: inline-block;
-	border: 1px;
-	border: solid;
-	border-color: lightgrey;
+	border: 1px solid lightgrey;
 	margin-bottom: 60px;
-	font-color: black;
+	color: black;
 }
 
-.lists {
-
-
+a {
+	color: black;
+	text-decoration:none;
 }
+
+li {
+	list-style-type:none;
+	display: inline;
+	margin-right: 20px;
+}
+
+input {
+	margin-left: 40px;
+}
+ 
+
+.leftnav {
+	float: left;
+}
+
+.rightnav a {
+	float: right;
+	padding-right: 30px;
+	color: purple;
+}
+
+.pages li {
+	border:1px solid lightgrey;
+	padding: 10px;
+	margin-right: 0;
+	font-size: 18px;
+	border-radius: 4px;
+ }
 
 .listdate {
 	color: grey;
+	font-size: 18px;
 }
 
 .listjob {
 	color: blue;
 	font-weight: bold;
-
+	font-size: 18px;
 }
 
 .listlocation {
 	color:grey;
+	font-size: 18px;
 }
 
-nav a: hover {
-	color: purple;
-}
 
 
 
